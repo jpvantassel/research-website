@@ -3,7 +3,7 @@ Commons Attribution 3.0 Unported License (below). Modificaitons by Joseph P.
 Vantassel, Copyright 2019.
 
 Creative Commons Attribution 3.0 Unported
-http://creativecommons.org/licenses/by/3.0/
+https://creativecommons.org/licenses/by/3.0/
 
 License
 
