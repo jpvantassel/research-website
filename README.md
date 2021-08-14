@@ -17,6 +17,7 @@ found [here](https://jpvantassel.github.io/research-website/).
 ### Icons
 
 - Font Awesome (fontawesome.io)
+- Academicons  (http://jpswalsh.github.io/academicons/)
 
 ### Other
 
