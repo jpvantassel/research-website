@@ -5,7 +5,7 @@
 ## Welcome
 
 This repository is for my personal research website. The hosted site can be
-found [here](https://jpvantassel.github.io/research-website/).
+found [here](https://www.jpvantassel.com/).
 
 ## Attributions
 

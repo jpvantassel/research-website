@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+	<head>
+		<title>Joseph P. Vantassel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/academicons.min.css"/>
+		<link rel="shortcut icon" type="image/png" href="images/geoimaging.png"/>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="https://www.jpvantassel.com/" class="image avatar"><img src="images/headshot_square.png" alt="" /></a>
+				<h1><strong>Joseph P. Vantassel, PhD</strong><br/>
+				advancing seismic imaging for engineering applications<br/>
+			</div>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+				<section id="abstract">
+					<div id="img" class="action", style="text-align: center;">
+						<img src="images/fulls/2023_vantasseletal_autohvsr.png" width="100%" alt="" />
+					</div>
+
+					<header class="major">
+						<h2>AutoHVSR: a machine-learning-supported algorithm
+                            for the fully-automated processing of
+                            horizontal-to-vertical spectral ratio measurements.
+						</h2>
+					</header>
+					<p>
+						The horizontal-to-vertical spectral ratio (HVSR) of ambient noise has seen widespread use
+                        as a tool for measuring a site's fundamental resonant frequency (f0). However, the processing
+                        of HVSR with traditional methods can be tedious and time consuming, particularly when the HVSR
+                        is complex and exhibits multiple resonances. This work proposes the AutoHVSR algorithm that
+                        allows for the fully-automated processing of HVSR measurements including those with zero, one,
+                        or multiple clear resonances. The AutoHVSR algorithm accepts seismic wave recordings and
+                        user-defined HVSR processing parameters as input and returns the HVSR calculations, statistics
+                        on the HVSR curve, and statistics on each automatically identified HVSR resonant frequency.
+                        The AutoHVSR algorithm integrates robust signal processing and computational methods with
+                        state-of-the-art machine-learning models trained using a diverse dataset of 1109 HVSR
+                        measurements. The AutoHVSR algorithm demonstrates excellent performance by correctly
+                        determining the number of HVSR resonances for 1099 of the 1109 HVSR measurements (>99%) and
+                        predicting the mean resonant frequency of the correctly identified resonances with a root
+                        mean square error (RMSE) of 0.05 Hz. Furthermore the AutoHVSR algorithm was able to produce
+                        these predictions in 13 minutes compared to the 30 hours required for traditional processing
+                        (a speed up of 138). The AutoHVSR algorithm is further demonstrated on a challenging dataset
+                        from Canterbury, New Zealand that had been previously interpreted by a different group of
+                        analysts (i.e., disjoint from those who produced the AutoHVSR training dataset) and with the
+                        assistance of local geology and information about resonances identified nearby. Despite the
+                        challenging nature of the dataset the AutoHVSR algorithm was capably of determining 104 of the
+                        129 HVSR measurements and predicting the mean resonant frequency of the correctly identified
+                        resonances with a RMSE below 0.05 Hz. Finally, while the AutoHVSR algorithm was developed
+                        using ambient noise measurements where the horizontal components were combined using the
+                        geometric mean it is shown to extend without modification to ambient noise HVSR measurements
+                        where the two horizontal components are rotated azimuthally and to HVSR measurements from
+                        small-strain earthquake ground motion recordings.
+					</p>
+				</section>
+
+				<section id="citation">
+					<u>Vantassel, J. P.</u>, Stolte, A. C., Wotherspoon, L. M., and Cox, B. R. (2023). AutoHVSR: a machine-learning-supported algorithm
+                    for the fully-automated processing of horizontal-to-vertical spectral ratio measurements. 
+                    <!-- <em>Submitted</em>. In Review. -->
+				</section>
+				<!-- <p>
+					<a href="https://arxiv.org/abs/2202.04779" target="_blank">View preprint on arXiv.org</a>
+				</p> -->
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://github.com/jpvantassel" class="icon brands fa-github"><span class="label"></span></a></li>
+					<li><a href="https://scholar.google.com/citations?user=tKGF968AAAAJ&hl=en" class="ai ai-google-scholar-square" style="font-size: 1.5em"><span class="label"></span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2019-2023 Joseph P. Vantassel</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Updated: 14 February 2023</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
